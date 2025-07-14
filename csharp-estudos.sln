@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-fundamentos", "00-fundamentos", "{D791E185-BC57-4A46-5552-402CC783974A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "escopo-programa", "00-fundamentos\escopo-programa\escopo-programa.csproj", "{33AE2C99-9CF7-BBBA-8CEA-B4C0A9CD8295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33AE2C99-9CF7-BBBA-8CEA-B4C0A9CD8295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AE2C99-9CF7-BBBA-8CEA-B4C0A9CD8295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AE2C99-9CF7-BBBA-8CEA-B4C0A9CD8295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AE2C99-9CF7-BBBA-8CEA-B4C0A9CD8295}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33AE2C99-9CF7-BBBA-8CEA-B4C0A9CD8295} = {D791E185-BC57-4A46-5552-402CC783974A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86E81429-03E1-408E-9B53-C128FB35D1B8}
+	EndGlobalSection
+EndGlobal
