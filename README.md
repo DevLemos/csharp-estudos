@@ -6,8 +6,20 @@ Repositório com projetos e exercícios voltados para aprendizado da linguagem C
 
 ```
 csharp-estudos/
-├── 00-fundamentos/
-└── 01-orientacao-objetos/
+└── fundamentos/
+    ├── concatenacao_placeholders_interpolacao
+    ├── conversoes
+    ├── entrada_e_saida
+    ├── escopo-programa
+    ├── estruturas_de_controle
+    ├── operadores
+    ├── primeira_aplicacao
+    ├── stack-heap
+    ├── tipos_de_dados_e_variaveis
+└──  exercicios/
+    ├── dictionary
+└── algoritmos/
+    ├── beecrowd
 ```
 
 ## 🛠️ Tecnologias
