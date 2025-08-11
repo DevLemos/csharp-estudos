@@ -1,5 +1,3 @@
-#is #as #aritmeticos #unarios #comparacao #logicos #condicionais #atribuicao #typeof
-
 # Typeof
 
 O operador `Typeof` em C# é usado para obter o tipo de um dado em tempo de compilação. Ele retorna um objeto do tipo `System.Type`, que representa informações do tipo especificado.
@@ -149,12 +147,6 @@ Console.WriteLine($"\n");
 
 ---
 
-# Pattern Matching (correspondência de padrões)
-
-É uma técnica que testa uma expressão para determinar se ela possui determinadas características.
-
----
-
 # Operador AS
 
 O operador `AS` é usado para **realizar a conversão segura de dois tipos** (safe cast) entre tipos de referência compatíveis. Ele tenta converter um tipo de objeto para outro tipo de referência. Se a conversão for bem-sucedida, ele retorna o objeto convertido, caso contrário retorna null em vez de lançar uma exceção.
@@ -202,7 +194,7 @@ Agora vamos ver o operador `as` em ação:
 ```csharp
 public static void ExemploAsBasico()
 {
-	Console.WriteLine("\n---- Operador AS ----\n");
+	Console.WriteLine("\\n---- Operador AS ----\\n");
 	Animal animal1 = new Cachorro { Name = "Bento", Raca = "Labrador" };
 	Animal animal2 = new Gato { Name = "Felix", vidasRestantes = 5 };
 
@@ -214,17 +206,17 @@ public static void ExemploAsBasico()
 	if (cachorro1 != null)
 	{
 		Console.WriteLine("---- Cenário 1: Conversão bem-sucedida ----");
-		Console.WriteLine($"- Encontrado um cachorro, Nome: {cachorro1.Name}, Raça: {cachorro1.Raca}\n");
+		Console.WriteLine($"- Encontrado um cachorro, Nome: {cachorro1.Name}, Raça: {cachorro1.Raca}\\n");
 	}
 	if (cachorro2 == null)
 	{
 		Console.WriteLine("---- Cenário 2: Conversão mal-sucedida ----");
-		Console.WriteLine($"- Objeto não encontrado: O objeto que está tentando converter não é do tipo certo.\n");
+		Console.WriteLine($"- Objeto não encontrado: O objeto que está tentando converter não é do tipo certo.\\n");
 	}
 	if (gato != null)
 	{
 		Console.WriteLine("---- Cenário 3: Conversão bem-sucedida ----");
-		Console.WriteLine($"- Encontrado um gato, Nome: {gato.Name}, Vidas Restantes: {gato.vidasRestantes}\n");
+		Console.WriteLine($"- Encontrado um gato, Nome: {gato.Name}, Vidas Restantes: {gato.vidasRestantes}\\n");
 	}
 }
 ```
@@ -358,16 +350,21 @@ Console.WriteLine();
 
 # Operadores Condicionais
 
+No C# moderno (a partir do C# 6 e 8), existem **vários operadores e recursos** para trabalhar com _null_ e _nullable reference types_.
+
 - `?:` Operador Ternário
 - `??` Operador de Coalescência Nula
-- `??=` Operador de Coalescência Nula (.NET +8.0)
+- `??=` Operador de Atribuição Condicional Nula (.NET +8.0)
+- `?.` Operador de acesso condicional
+- `?[]` Operador de índice condicional
+- `!` Operador de negação de nulidade
 
 ### Ternário
 
 O operador condicional ternário avalia uma expressão booleana e retorna o resultado de uma das duas expressões, dependendo se a expressão é avaliada como `true` ou `false`;
 
 ```csharp
-Console.WriteLine("\nOperadores Condicionais\n");
+Console.WriteLine("\\nOperadores Condicionais\\n");
 int idade = 20;
 
 string resultado = idade >= 18 ? "Maior de idade" : "Menor de idade"; Console.WriteLine($"Idade: {idade}");
@@ -379,12 +376,12 @@ Console.WriteLine($"Resultado: {resultado}");
 O operador de Coalescência Nula retorna o valor do seu operando à esquerda se não for `null`, caso contrário avalia o operando à direita e retorna o seu resultado. O operador `??` não avalia seu operando a direita se o operando à esquerda for avaliado como não nulo.
 
 ```csharp
-Console.WriteLine("\nOperador Coalescência Nula (??):\n");
+Console.WriteLine("\\nOperador Coalescência Nula (??):\\n");
 
 string nome = null;
 string nomePadrao = nome ?? "Sem nome";
 Console.WriteLine($"Nome: {nome ?? "Null"}");
-Console.WriteLine($"Nome Padrão: {nomePadrao}\n");
+Console.WriteLine($"Nome Padrão: {nomePadrao}\\n");
 ```
 
 ### Atribuição de Coalescência Nula
@@ -392,9 +389,30 @@ Console.WriteLine($"Nome Padrão: {nomePadrao}\n");
 O operador de atribuição de coalescência nula `??=` atribuir o valor do seu operando à direita ao seu operando à esquerda somente se o operador à esquerda for avaliado como null. O `??=`operador não avalia seu operando à direita se o operando à esquerda for avaliado como não nulo.
 
 ```csharp
-Console.WriteLine("\nOperador de Atribuição de Coalescência Nula (??=):\n");
+Console.WriteLine("\\nOperador de Atribuição de Coalescência Nula (??=):\\n");
 nome ??= "João";
 Console.WriteLine($"nome após o operador de atribuição de coalescência nula: {nome}");
+```
+
+### Negação de nulidade
+
+O operador de negação de nulidade serve para dizer ao compilador:
+
+<aside>
+💡
+“Eu tenho certeza que isso não vai ser `null`, então não me avise sobre possíveis problemas de nulidade.”
+</aside>
+
+Exemplo sem `!`
+
+```csharp
+string input = Console.ReadLine(); // ⚠ Possível aviso de nulidade
+```
+
+Exemplo com `!`
+
+```csharp
+string input = Console.ReadLine()!;
 ```
 
 ---
@@ -605,5 +623,11 @@ Console.WriteLine($" (2 + 3) * 4 = {resultado2}");
 Console.WriteLine($" 10 - 6 / 2 = {resultado3}");
 Console.WriteLine($" (10 - 6) / 2 = {resultado4}");
 ```
+
+---
+
+# Pattern Matching (correspondência de padrões)
+
+É uma técnica que testa uma expressão para determinar se ela possui determinadas características.
 
 ---
