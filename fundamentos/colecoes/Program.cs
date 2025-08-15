@@ -9,7 +9,10 @@ namespace colecoes
 
             List<ColecoesBase> colecoes = new List<ColecoesBase>
             {
-                new ColecaoArray()
+                new ColecaoArray(),
+                new ColecaoListGenerica(),
+                new ColecaoHashSetGenerica(),
+                new ColecaoDictionaryGenerica()
             };
 
             foreach (ColecoesBase colecao in colecoes)
