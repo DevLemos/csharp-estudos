@@ -4,11 +4,12 @@
     {
         public string Nome { get; }
         public int Idade { get; }
-
-        public Pessoa(string nome, int idade)
+        public string Email { get; }
+        public Pessoa(string nome, int idade, string email)
         {
             this.Nome = nome;
             this.Idade = idade;
+            this.Email = email;
         }
     }
 }
