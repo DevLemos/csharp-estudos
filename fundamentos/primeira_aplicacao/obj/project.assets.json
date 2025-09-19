@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\primeira_aplicacao\\primeira_aplicacao.csproj",
+      "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\primeira_aplicacao\\primeira_aplicacao.csproj",
       "projectName": "primeira_aplicacao",
-      "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\primeira_aplicacao\\primeira_aplicacao.csproj",
+      "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\primeira_aplicacao\\primeira_aplicacao.csproj",
       "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\primeira_aplicacao\\obj\\",
+      "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\primeira_aplicacao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

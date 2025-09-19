@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\escopo-programa\\escopo-programa.csproj",
+      "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\escopo-programa\\escopo-programa.csproj",
       "projectName": "escopo-programa",
-      "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\escopo-programa\\escopo-programa.csproj",
+      "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\escopo-programa\\escopo-programa.csproj",
       "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\escopo-programa\\obj\\",
+      "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\escopo-programa\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

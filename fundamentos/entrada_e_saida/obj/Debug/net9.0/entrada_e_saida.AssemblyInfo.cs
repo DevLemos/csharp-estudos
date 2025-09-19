@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("entrada_e_saida")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bebe2dbde1881449d85743aafe1bd43541eea4ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("entrada_e_saida")]
 [assembly: System.Reflection.AssemblyTitleAttribute("entrada_e_saida")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

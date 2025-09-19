@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\stack-heap\\stack-heap.csproj",
+      "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\stack-heap\\stack-heap.csproj",
       "projectName": "stack-heap",
-      "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\stack-heap\\stack-heap.csproj",
+      "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\stack-heap\\stack-heap.csproj",
       "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\stack-heap\\obj\\",
+      "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\stack-heap\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

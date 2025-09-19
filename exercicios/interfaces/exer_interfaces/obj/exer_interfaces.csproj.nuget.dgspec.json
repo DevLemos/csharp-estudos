@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\exer_interfaces.csproj": {}
+    "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\exer_interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\exer_interfaces.csproj": {
+    "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\exer_interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\exer_interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\exer_interfaces.csproj",
         "projectName": "exer_interfaces",
-        "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\exer_interfaces.csproj",
+        "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\exer_interfaces.csproj",
         "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\obj\\",
+        "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\exercicios\\interfaces\\exer_interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

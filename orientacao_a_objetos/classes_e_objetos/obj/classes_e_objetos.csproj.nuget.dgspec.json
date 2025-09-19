@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\classes_e_objetos.csproj": {}
+    "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\classes_e_objetos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\classes_e_objetos.csproj": {
+    "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\classes_e_objetos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\classes_e_objetos.csproj",
+        "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\classes_e_objetos.csproj",
         "projectName": "classes_e_objetos",
-        "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\classes_e_objetos.csproj",
+        "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\classes_e_objetos.csproj",
         "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\obj\\",
+        "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\orientacao_a_objetos\\classes_e_objetos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

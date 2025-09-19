@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\tipos_de_dados_e_variaveis.csproj": {}
+    "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\tipos_de_dados_e_variaveis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\tipos_de_dados_e_variaveis.csproj": {
+    "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\tipos_de_dados_e_variaveis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\tipos_de_dados_e_variaveis.csproj",
+        "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\tipos_de_dados_e_variaveis.csproj",
         "projectName": "tipos_de_dados_e_variaveis",
-        "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\tipos_de_dados_e_variaveis.csproj",
+        "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\tipos_de_dados_e_variaveis.csproj",
         "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\obj\\",
+        "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\tipos_de_dados_e_variaveis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

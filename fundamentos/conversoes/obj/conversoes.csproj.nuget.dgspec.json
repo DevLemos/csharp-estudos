@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\conversoes\\conversoes.csproj": {}
+    "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\conversoes\\conversoes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\conversoes\\conversoes.csproj": {
+    "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\conversoes\\conversoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\conversoes\\conversoes.csproj",
+        "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\conversoes\\conversoes.csproj",
         "projectName": "conversoes",
-        "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\conversoes\\conversoes.csproj",
+        "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\conversoes\\conversoes.csproj",
         "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\fundamentos\\conversoes\\obj\\",
+        "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\fundamentos\\conversoes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

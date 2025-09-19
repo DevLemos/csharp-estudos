@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\consumindo_api\\ScreenSound_API\\ScreenSound_API.csproj",
+      "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\consumindo_api\\ScreenSound_API\\ScreenSound_API.csproj",
       "projectName": "ScreenSound_API",
-      "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\consumindo_api\\ScreenSound_API\\ScreenSound_API.csproj",
+      "projectPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\consumindo_api\\ScreenSound_API\\ScreenSound_API.csproj",
       "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos\\consumindo_api\\ScreenSound_API\\obj\\",
+      "outputPath": "C:\\Users\\INTEL\\Desktop\\csharp-estudos_v2\\csharp-estudos\\consumindo_api\\ScreenSound_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
