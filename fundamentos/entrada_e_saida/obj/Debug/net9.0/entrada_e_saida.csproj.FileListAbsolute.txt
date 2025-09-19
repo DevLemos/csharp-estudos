@@ -1,0 +1,14 @@
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\bin\Debug\net9.0\entrada_e_saida.exe
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\bin\Debug\net9.0\entrada_e_saida.deps.json
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\bin\Debug\net9.0\entrada_e_saida.runtimeconfig.json
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\bin\Debug\net9.0\entrada_e_saida.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\bin\Debug\net9.0\entrada_e_saida.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\obj\Debug\net9.0\entrada_e_saida.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\obj\Debug\net9.0\entrada_e_saida.AssemblyInfoInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\obj\Debug\net9.0\entrada_e_saida.AssemblyInfo.cs
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\obj\Debug\net9.0\entrada_e_saida.csproj.CoreCompileInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\obj\Debug\net9.0\entrada_e_saida.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\obj\Debug\net9.0\refint\entrada_e_saida.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\obj\Debug\net9.0\entrada_e_saida.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\obj\Debug\net9.0\entrada_e_saida.genruntimeconfig.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\entrada_e_saida\obj\Debug\net9.0\ref\entrada_e_saida.dll

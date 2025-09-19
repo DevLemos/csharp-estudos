@@ -5,10 +5,13 @@
         public string Nome { get; }
         public string Cargo { get; }
 
-        public Funcionario(string nome, string cargo) 
+        public string Departamento { get; }
+
+        public Funcionario(string nome, string cargo, string departamento) 
         {
             Nome = nome;
             Cargo = cargo;
+            Departamento = departamento;
         }
     }
 }

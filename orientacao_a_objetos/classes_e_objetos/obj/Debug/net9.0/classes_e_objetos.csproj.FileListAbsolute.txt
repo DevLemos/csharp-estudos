@@ -1,0 +1,14 @@
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\bin\Debug\net9.0\classes_e_objetos.exe
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\bin\Debug\net9.0\classes_e_objetos.deps.json
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\bin\Debug\net9.0\classes_e_objetos.runtimeconfig.json
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\bin\Debug\net9.0\classes_e_objetos.dll
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\bin\Debug\net9.0\classes_e_objetos.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\obj\Debug\net9.0\classes_e_objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\obj\Debug\net9.0\classes_e_objetos.AssemblyInfoInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\obj\Debug\net9.0\classes_e_objetos.AssemblyInfo.cs
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\obj\Debug\net9.0\classes_e_objetos.csproj.CoreCompileInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\obj\Debug\net9.0\classes_e_objetos.dll
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\obj\Debug\net9.0\refint\classes_e_objetos.dll
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\obj\Debug\net9.0\classes_e_objetos.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\obj\Debug\net9.0\classes_e_objetos.genruntimeconfig.cache
+C:\Users\INTEL\Desktop\csharp-estudos\orientacao_a_objetos\classes_e_objetos\obj\Debug\net9.0\ref\classes_e_objetos.dll

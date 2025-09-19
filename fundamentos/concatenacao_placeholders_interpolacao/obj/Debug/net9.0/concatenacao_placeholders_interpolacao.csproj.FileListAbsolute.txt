@@ -1,0 +1,14 @@
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\bin\Debug\net9.0\concatenacao_placeholders_interpolacao.exe
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\bin\Debug\net9.0\concatenacao_placeholders_interpolacao.deps.json
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\bin\Debug\net9.0\concatenacao_placeholders_interpolacao.runtimeconfig.json
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\bin\Debug\net9.0\concatenacao_placeholders_interpolacao.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\bin\Debug\net9.0\concatenacao_placeholders_interpolacao.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\obj\Debug\net9.0\concatenacao_placeholders_interpolacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\obj\Debug\net9.0\concatenacao_placeholders_interpolacao.AssemblyInfoInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\obj\Debug\net9.0\concatenacao_placeholders_interpolacao.AssemblyInfo.cs
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\obj\Debug\net9.0\concatenacao_placeholders_interpolacao.csproj.CoreCompileInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\obj\Debug\net9.0\concatenacao_placeholders_interpolacao.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\obj\Debug\net9.0\refint\concatenacao_placeholders_interpolacao.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\obj\Debug\net9.0\concatenacao_placeholders_interpolacao.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\obj\Debug\net9.0\concatenacao_placeholders_interpolacao.genruntimeconfig.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\concatenacao_placeholders_interpolacao\obj\Debug\net9.0\ref\concatenacao_placeholders_interpolacao.dll

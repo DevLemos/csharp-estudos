@@ -1,0 +1,14 @@
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\bin\Debug\net9.0\tipos_de_dados_e_variaveis.exe
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\bin\Debug\net9.0\tipos_de_dados_e_variaveis.deps.json
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\bin\Debug\net9.0\tipos_de_dados_e_variaveis.runtimeconfig.json
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\bin\Debug\net9.0\tipos_de_dados_e_variaveis.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\bin\Debug\net9.0\tipos_de_dados_e_variaveis.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\obj\Debug\net9.0\tipos_de_dados_e_variaveis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\obj\Debug\net9.0\tipos_de_dados_e_variaveis.AssemblyInfoInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\obj\Debug\net9.0\tipos_de_dados_e_variaveis.AssemblyInfo.cs
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\obj\Debug\net9.0\tipos_de_dados_e_variaveis.csproj.CoreCompileInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\obj\Debug\net9.0\tipos_de_dados_e_variaveis.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\obj\Debug\net9.0\refint\tipos_de_dados_e_variaveis.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\obj\Debug\net9.0\tipos_de_dados_e_variaveis.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\obj\Debug\net9.0\tipos_de_dados_e_variaveis.genruntimeconfig.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\tipos_de_dados_e_variaveis\obj\Debug\net9.0\ref\tipos_de_dados_e_variaveis.dll

@@ -18,14 +18,14 @@ Código VIP: {cliente2.CodigoVIP}
 ");
 
 Console.WriteLine("\n------------- Exercício 02 -------------\n");
-Interno funcionario01 = new Interno("Juliana", "Gerente", 2350.00m);
+Interno funcionario01 = new Interno("Juliana", "Gerente","Marketing",2350.00m);
 Console.WriteLine(@$"Funcionário Interno: 
 Nome: {funcionario01.Nome}
 Cargo: {funcionario01.Cargo}
 Salário: {funcionario01.Salario}
 ");
 
-Freelancer funcionario02 = new Freelancer("Emerson", "Design", 3500.00m);
+Freelancer funcionario02 = new Freelancer("Emerson", "Design", "Aplicação Web", 3500.00m);
 Console.WriteLine(@$"Funcionário Freelancer: 
 Nome: {funcionario02.Nome}
 Cargo: {funcionario02.Cargo}
@@ -64,3 +64,32 @@ PagamentoBoleto cliente4 = new PagamentoBoleto("Juliana", 30 ,"juliana@email.com
 
 cliente3.ProcessarPagamento();
 cliente4.ProcessarPagamento();
+
+Console.WriteLine("\n------------- Exercício 08 -------------\n");
+Funcionario func01 = new Funcionario("João Pedro", "suporte de infra", "TI");
+Funcionario func02 = new Funcionario("Marina", "teste", "Consultoria");
+
+Manutencao manutencao1 = new Manutencao("Atualização de servidor", func01);
+Consultoria consultoria1 = new Consultoria("Planejamento estratégico", func02);
+manutencao1.ExecutarServico();
+consultoria1.ExecutarServico();
+
+Console.WriteLine("\n------------- Exercício 09 -------------\n");
+Quadrado quadrado = new();
+quadrado.Lado = 10.20;
+Console.WriteLine($"\nQuadrado");
+Console.WriteLine($"Cálculo da área: {quadrado.CalcularArea()}");
+Console.WriteLine($"Cálculo do perímetro: {quadrado.CalcularPerimetro()}");
+
+Circulo circulo = new();
+circulo.Raio = 5.00;
+Console.WriteLine($"\nCirculo");
+Console.WriteLine($"Cálculo da área: {circulo.CalcularArea()}");
+Console.WriteLine($"Cálculo do perímetro: {circulo.CalcularPerimetro()}");
+
+Triangulo triangulo = new();
+triangulo.Base = 10.00;
+triangulo.Altura = 8.20 ;
+Console.WriteLine($"\nTriângulo");
+Console.WriteLine($"Cálculo da área: {triangulo.CalcularArea()}");
+Console.WriteLine($"Cálculo do perímetro: {triangulo.CalcularPerimetro()}");

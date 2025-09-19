@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ScreenSound_API/1.0.0": {
+        "runtime": {
+          "ScreenSound_API.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ScreenSound_API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\bin\Debug\net8.0\objeto.exe
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\bin\Debug\net8.0\objeto.deps.json
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\bin\Debug\net8.0\objeto.runtimeconfig.json
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\bin\Debug\net8.0\objeto.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\bin\Debug\net8.0\objeto.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\obj\Debug\net8.0\objeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\obj\Debug\net8.0\objeto.AssemblyInfoInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\obj\Debug\net8.0\objeto.AssemblyInfo.cs
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\obj\Debug\net8.0\objeto.csproj.CoreCompileInputs.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\obj\Debug\net8.0\objeto.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\obj\Debug\net8.0\refint\objeto.dll
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\obj\Debug\net8.0\objeto.pdb
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\obj\Debug\net8.0\objeto.genruntimeconfig.cache
+C:\Users\INTEL\Desktop\csharp-estudos\fundamentos\objeto\objeto\obj\Debug\net8.0\ref\objeto.dll

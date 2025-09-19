@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "estruturas_de_controle/1.0.0": {
+        "runtime": {
+          "estruturas_de_controle.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "estruturas_de_controle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

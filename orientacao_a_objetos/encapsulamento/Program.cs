@@ -1,41 +1,41 @@
 ﻿using encapsulamento.model;
 
-// Console.WriteLine("----- Exemplo 01: Entendendo modificador private -----");
-// ContaBancaria conta = new ContaBancaria(100);
-// Console.WriteLine(conta.Saldo);
+Console.WriteLine("----- Exemplo 01: Entendendo modificador private -----");
+ContaBancaria conta = new ContaBancaria(100);
+Console.WriteLine(conta.Saldo);
 
-// Console.WriteLine(conta.Sacar(30));
-// Console.WriteLine(conta.Saldo);
+Console.WriteLine(conta.Sacar(30));
+Console.WriteLine(conta.Saldo);
 
-// Console.WriteLine("\n----- Exemplo 02: Getters e Setters -----");
-// Produto produto01 = new Produto("Mesa", "Uma mesa de jantar para quatro pessoas", 1.500m, 2, "http://donwloadsimg.com");
-// Console.WriteLine(@$"Produto:
-// Nome: {produto01.GetNome()}
-// ");
-// produto01.SetNome("Cadeira");
-// Console.WriteLine(@$"Produto pós mudança:
-// Nome: {produto01.GetNome()}
-// ");
+Console.WriteLine("\n----- Exemplo 02: Getters e Setters -----");
+Produto produto01 = new Produto("Mesa", "Uma mesa de jantar para quatro pessoas", 1.500m, 2, "http://donwloadsimg.com");
+Console.WriteLine(@$"Produto:
+ Nome: {produto01.GetNome()}
+ ");
+produto01.SetNome("Cadeira");
+Console.WriteLine(@$"Produto pós mudança:
+ Nome: {produto01.GetNome()}
+ ");
 
-// Console.WriteLine("\n----- Exemplo 03: Getters e setters com propriedades -----");
-// Console.WriteLine(@$"Produto:
-// Nome: {produto01.Nome}
-// ");
-// produto01.Nome = "Computador";
-// Console.WriteLine(@$"Produto pós mudança:
-// Nome: {produto01.Nome}
-// ");
+Console.WriteLine("\n----- Exemplo 03: Getters e setters com propriedades -----");
+Console.WriteLine(@$"Produto:
+ Nome: {produto01.Nome}
+ ");
+produto01.Nome = "Computador";
+Console.WriteLine(@$"Produto pós mudança:
+ Nome: {produto01.Nome}
+ ");
 
-// Console.WriteLine("\n----- Exemplo 04: Getters e setters com auto-properties -----");
-// Produto produto02 = new Produto("Teclado", "Teclado gamer com led RGB", 500m, 2, "http://donwloadsimg.com");
-// Console.WriteLine(@$"Produto:
-// Nome: {produto02.Nome}
-// Descrição: {produto02.Descricao}
-// Preço: {produto02.Preco}
-// Quantidade estoque: {produto02.Estoque}
-// Link Imagem: {produto02.GetLinkImagem()}
-// Data da criação: {produto02.DataCriacao}
-// ");
+Console.WriteLine("\n----- Exemplo 04: Getters e setters com auto-properties -----");
+Produto produto02 = new Produto("Teclado", "Teclado gamer com led RGB", 500m, 2, "http://donwloadsimg.com");
+Console.WriteLine(@$"Produto:
+ Nome: {produto02.Nome}
+ Descrição: {produto02.Descricao}
+ Preço: {produto02.Preco}
+ Quantidade estoque: {produto02.Estoque}
+ Link Imagem: {produto02.GetLinkImagem()}
+ Data da criação: {produto02.DataCriacao}
+ ");
 
 Console.WriteLine("\n----- Exercício 01: Monitoramento de veículo -----");
 Veiculo veiculo01 = new Veiculo("KPSX0493");

@@ -27,9 +27,7 @@ namespace encapsulamento.model
         }
 
         // Propriedade pública para expor o saldo (somente leitura)
-        public decimal Saldo
-        {
-            get { return _saldo; }
-        }
+        public decimal Saldo =>  _saldo;
+
     }
 }

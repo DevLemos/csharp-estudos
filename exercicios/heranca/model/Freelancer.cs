@@ -4,8 +4,8 @@
     {
         public decimal ValorProjeto { get; }
 
-        public Freelancer(string nome, string cargo, decimal valorProjeto)
-            : base (nome, cargo)
+        public Freelancer(string nome, string cargo, string departamento, decimal valorProjeto)
+            : base (nome, cargo, departamento)
         {
             ValorProjeto = valorProjeto;
         }
