@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("concatenacao_placeholders_interpolacao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bebe2dbde1881449d85743aafe1bd43541eea4ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97c1a194139ffee478ea76459203071e7be10523")]
 [assembly: System.Reflection.AssemblyProductAttribute("concatenacao_placeholders_interpolacao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("concatenacao_placeholders_interpolacao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
