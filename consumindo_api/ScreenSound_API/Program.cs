@@ -1,4 +1,6 @@
-﻿using (HttpClient cliente = new HttpClient()) 
+﻿using ScreenSound_API.Models;
+
+using (HttpClient cliente = new HttpClient()) 
 {
     try
     {
