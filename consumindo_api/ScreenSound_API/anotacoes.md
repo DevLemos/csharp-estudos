@@ -1,17 +1,17 @@
-# Consumindo API
+Ôªø# Consumindo API
 
 ![Cliente e Servidor](img/cliente-servidor.png)
 
 ## HttpCliente
-O HttCliente È uma classe do .NET que fornece uma API moderna e eficiente para fazer
-requisiÁıes HTTP. Ela È a forma recomendada para fazer comunicaÁ„o HTTP em aplicaÁıes.
-Respons·vel por gerenciar conexıes, cookies, headers, encoding, etc.
+O HttCliente √© uma classe do .NET que fornece uma API moderna e eficiente para fazer
+requisi√ß√µes HTTP. Ela √© a forma recomendada para fazer comunica√ß√£o HTTP em aplica√ß√µes.
+Respons√°vel por gerenciar conex√µes, cookies, headers, encoding, etc.
 
 ### Pra que serve?
-- IntegraÁ„o com APIs REST: Consumir serviÁos web
-- Download de conte˙do: Baixar arquivos, p·ginas web, dados
-- IntegraÁ„o entre sistemas
-- Consumo de microserviÁos
+- Integra√ß√£o com APIs REST: Consumir servi√ßos web
+- Download de conte√∫do: Baixar arquivos, p√°ginas web, dados
+- Integra√ß√£o entre sistemas
+- Consumo de microservi√ßos
 
 ```
 using (HttpClient cliente = new HttpClient()) 
@@ -20,23 +20,23 @@ using (HttpClient cliente = new HttpClient())
     Console.WriteLine(response);
 }
 ```
-A palavra reservada using garante que o objeto seja liberado da memÛria automaticamente
+A palavra reservada using garante que o objeto seja liberado da mem√≥ria automaticamente
 
 ### GetStringAsync()
-Esse mÈtodo envia uma solicitaÁ„o GET para a URI especÌficada e retorna o corpo da resposta
-como uma cadeia de caracteres em uma operaÁ„o assÌncrona.
+Esse m√©todo envia uma solicita√ß√£o GET para a URI espec√≠ficada e retorna o corpo da resposta
+como uma cadeia de caracteres em uma opera√ß√£o ass√≠ncrona.
 
 ### using
-… uma declaraÁ„o muito ˙til que garante o descarte autom·tico de recursos. Ele implementa o padr„o
+√â uma declara√ß√£o muito √∫til que garante o descarte autom√°tico de recursos. Ele implementa o padr√£o
 IDisposable, como funciona:
-- CriaÁ„o: O objeto È criado (new HttpClient())
-- Uso: VocÍ executa o cÛdigo dentro do bloco
-- Descarte autom·tico: Quando o bloco termina (com sucesso ou erro), o mÈtodo Dispose() È chamado automaticamente
+- Cria√ß√£o: O objeto √© criado (new HttpClient())
+- Uso: Voc√™ executa o c√≥digo dentro do bloco
+- Descarte autom√°tico: Quando o bloco termina (com sucesso ou erro), o m√©todo Dispose() √© chamado automaticamente
 
-## ExceÁ„o
-Para garantir que n„o dÍ nenhum problema na requisiÁ„o e a aplicaÁ„o pare, vamos utilizar o
-Try cath para capturar as exceÁıes que eventualmente podem ser lanÁadas. Removi da minha API o "n" de "json"
-para cair na exceÁ„o.
+## Exce√ß√£o
+Para garantir que n√£o d√™ nenhum problema na requisi√ß√£o e a aplica√ß√£o pare, vamos utilizar o
+Try cath para capturar as exce√ß√µes que eventualmente podem ser lan√ßadas. Removi da minha API o "n" de "json"
+para cair na exce√ß√£o.
 
 ```
 using (HttpClient cliente = new HttpClient()) 
@@ -55,12 +55,12 @@ using (HttpClient cliente = new HttpClient())
 
 Retorno: Error: Response status code does not indicate success: 404 (Not Found).
 
-Isso quer dizer que cada requisiÁ„o que a gente faz, tem um cÛdigo de resposta e nesse caso
+Isso quer dizer que cada requisi√ß√£o que a gente faz, tem um c√≥digo de resposta e nesse caso
 foi o 404.
 
 ## Status Code
-Os cÛdigos de status de resposta HTTP indica se uma solicitaÁ„o HTTP especÌfica foi concluÌda
-com Íxito. As respostas s„o agrupadas em cinco classes:
+Os c√≥digos de status de resposta HTTP indica se uma solicita√ß√£o HTTP espec√≠fica foi conclu√≠da
+com √™xito. As respostas s√£o agrupadas em cinco classes:
 
 - Respostas informativas: 100 - 199
 - Respostas bem-sucedidas: 200 - 299
@@ -93,7 +93,7 @@ com Íxito. As respostas s„o agrupadas em cinco classes:
 ```
 
 Vamos supor que eu queria usar apenas algumas propriedades 
-desse json, como artist, song, genre, etc. PorÈm eu quero nas 
+desse json, como artist, song, genre, etc. Por√©m eu quero nas 
 propriedades da minha classe e com nomes diferentes.
 
 Usando JsonPropertyName eu consigo fazer isso:
@@ -115,7 +115,7 @@ internal class Musica
 ```
 
 ### JsonPropertyName
-… um atributo(annotation) do namespace ***System.Text.Json.Serialization***
+√â um atributo(annotation) do namespace ***System.Text.Json.Serialization***
 que mapeia a propriedade C# para um campo JSON com nome diferente. Ele serve
 para deserializar JSON em objetos C#
 
@@ -123,13 +123,13 @@ Exemplo:
 ```
 string json = "{\"song\": \"Bohemian Rhapsody\"}";
 Musica musica = JsonSerializer.Deserialize<Musica>(json);
-Console.WriteLine(musica.Nome); // SaÌda: Bohemian Rhapsody
+Console.WriteLine(musica.Nome); // Sa√≠da: Bohemian Rhapsody
 ```
 
-## O que È um annotation?
-… uma marcaÁ„o declarativa que adiciona metadados ao cÛdigo. VocÍ "anota" classes,
-mÈtodos, propriedades, par‚metros, etc.., com informaÁıes extras que podem ser lidas
-em tempo de compilaÁ„o ou execuÁ„o.
+## O que √© um annotation?
+√â uma marca√ß√£o declarativa que adiciona metadados ao c√≥digo. Voc√™ "anota" classes,
+m√©todos, propriedades, par√¢metros, etc.., com informa√ß√µes extras que podem ser lidas
+em tempo de compila√ß√£o ou execu√ß√£o.
 
 ### Pra que serve?
 Os atributos informam ao compilador, frameworks ou bibliotecas como tratar aquele
@@ -137,16 +137,16 @@ elemento.
 
 Exemplos comuns:
 ```
-// SerializaÁ„o JSON - diz como mapear propriedades
+// Serializa√ß√£o JSON - diz como mapear propriedades
 [JsonPropertyName("song")]
 public string Nome { get; set; }
 
-// ValidaÁ„o - define regras de validaÁ„o
+// Valida√ß√£o - define regras de valida√ß√£o
 [Required]
 [MaxLength(100)]
 public string Titulo { get; set; }
 
-// Entity Framework - define chave prim·ria
+// Entity Framework - define chave prim√°ria
 [Key]
 public int Id { get; set; }
 
@@ -154,14 +154,208 @@ public int Id { get; set; }
 [HttpGet("api/musicas")]
 public IActionResult GetMusicas() { }
 
-// Marca mÈtodo como obsoleto
-[Obsolete("Use NovoMetodo() ao invÈs deste")]
+// Marca m√©todo como obsoleto
+[Obsolete("Use NovoMetodo() ao inv√©s deste")]
 public void MetodoAntigo() { }
 ```
 
+# Desserializa√ß√£o
+A desserializa√ß√£o √© fundamental quando trabalhamos com APIs. 
+Basicamente, √© o processo de converter dados recebidos 
+(geralmente JSON ou XML) em objetos C#.
+
+### JSON
+```
+{
+  "id": 1,
+  "nome": "Jo√£o",
+  "email": "joao@example.com"
+}
+```
+
+### Principais Formas de Desserializar
+
+1. System.Text.Json 
+```
+using System.Text.Json;
+
+// Classe que representa a estrutura do JSON
+public class Usuario
+{
+    public int Id { get; set; }
+    public string Nome { get; set; }
+    public string Email { get; set; }
+}
+
+// Desserializar
+string jsonString = await response.Content.ReadAsStringAsync();
+Usuario usuario = JsonSerializer.Deserialize<Usuario>(jsonString);
+```
+2. Newtonsoft.Json
+```
+using Newtonsoft.Json;
+
+string jsonString = await response.Content.ReadAsStringAsync();
+Usuario usuario = JsonConvert.DeserializeObject<Usuario>(jsonString);
+```
+
+3. Diretamente com HttpClient
+```
+using System.Net.Http.Json;
+
+// Forma mais moderna e direta
+Usuario usuario = await httpClient.GetFromJsonAsync<Usuario>("https://api.example.com/usuario/1");
+```
+
+### Dicas Importantes
+Propriedades do JSON diferentes do C#? Use atributos:
+
+```
+public class Usuario
+{
+    [JsonPropertyName("user_id")] // System.Text.Json
+    public int Id { get; set; }
+    
+    // ou
+    [JsonProperty("user_name")] // Newtonsoft.Json
+    public string Nome { get; set; }
+}
+```
+
+# LINQ
+LINQ significa **Language Integrated Query (Consulta 
+Integrada √† Linguagem)**. √â uma funcionalidade poderosa 
+do C# que permite fazer consultas e manipula√ß√µes em cole√ß√µes 
+de dados de forma simples e elegante, usando uma sintaxe similar 
+ao SQL.
+
+### Por que LINQ √© √∫til?
+Ao inv√©s de usar loops tradicionais para filtrar, ordenar ou transformar 
+dados, voc√™ usa uma sintaxe mais limpa e declarativa.
+
+### Exemplo
+```
+List<int> numeros = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+var pares = numeros.Where(n => n % 2 == 0).ToList();
+```
+
+### Operadores LINQ Mais Usados
+
+### Filtrar
+- **Where( )** - filtra elementos baseado em uma condi√ß√£
+
+### Ordenar
+- **OrderBy( ) / OrderByDescending()** - ordena crescente/decrescente
+- **ThenBy( )** - ordena√ß√£o secund√°ria
+
+### Transformar
+- **Select( )** - projeta/transforma cada elemento
+
+### Agregar
+- **Count( )** - conta elementos
+- **Sum( )**, **Average( )**, **Min( )**, **Max( )** - opera√ß√µes matem√°ticas
+- **First( )**, **FirstOrDefault( )** - primeiro elemento
+- **Single( )**, **SingleOrDefault( )** - √∫nico elemento
+
+### Outros
+- **Take( )** / Skip() - pagina√ß√£o
+- **Any( )** - verifica se existe algum elemento
+- **All( )** - verifica se todos atendem condi√ß√£o
+- **Distinct( )** - remove duplicatas
+- **GroupBy( )** - agrupa elementos
 
 
+# Objetos An√¥nimos
+Objetos an√¥nimos s√£o objetos sem uma classe definida explicitamente. Voc√™ 
+cria um objeto "na hora", sem precisar declarar uma classe antes.
+
+### Sintaxe
+```
+// Objeto an√¥nimo
+var pessoa = new { Nome = "Jo√£o", Idade = 25 };
+
+Console.WriteLine(pessoa.Nome);  // Jo√£o
+Console.WriteLine(pessoa.Idade); // 25
+```
+
+# Serializa√ß√£o
+Serializa√ß√£o √© o processo inverso da desserializa√ß√£o. Se desserializa√ß√£o 
+transforma JSON em objetos C#, a serializa√ß√£o transforma objetos C# em JSON 
+(ou XML).
+
+### Por que usar Serializa√ß√£o?
+
+- Enviar dados para uma API (POST, PUT, PATCH)
+- Salvar dados em arquivos
+- Armazenar dados em cache
+- Transmitir dados pela rede
+
+```
+// Objeto C#
+Usuario usuario = new Usuario 
+{ 
+    Id = 1, 
+    Nome = "Maria", 
+    Email = "maria@example.com" 
+};
+
+// ‚¨áÔ∏è SERIALIZA√á√ÉO ‚¨áÔ∏è
+
+// JSON (string)
+{
+  "id": 1,
+  "nome": "Maria",
+  "email": "maria@example.com"
+}
+```
+
+# Criar arquivo json
+```
+public void GerarArquivoJson()
+    {
+        string json = JsonSerializer.Serialize(new 
+        { 
+            nome = Nome ,
+            musicas = MusicasFavoritas        
+        });
+
+        string nomeArquivo = $"musicas-favoritas-{Nome}.json";
+
+        File.WriteAllText(nomeArquivo, json); //escreva todo o texto
+        Console.WriteLine($"O arquivo JSON foi criado com sucesso! {Path.GetFullPath(nomeArquivo)}");
+    }
+```
+
+# Criar arquivo txt
+Para criar um arquivo de texto com C# de forma simples, voc√™ 
+pode usar a classe StreamWriter juntamente com o m√©todo WriteLine() 
+para escrever conte√∫do no arquivo.
+
+### Exemplo simples
+```
+public void GerarArquivoTxt()
+    {
+        string nomeArquivo = $"musicas-favoritas-{Nome}.txt";
+
+        using (StreamWriter arquivo = new StreamWriter(nomeArquivo)) {
+
+            arquivo.WriteLine($"M√∫sicas favoritas do {Nome}\n");
+
+            foreach (var musica in MusicasFavoritas)
+            {
+                arquivo.WriteLine($"- {musica.Nome}");
+            }
+        }
+
+        Console.WriteLine($"txt gerado com sucesso! {Path.GetFullPath(nomeArquivo)}");
+    }
+```
 
 
-# ReferÍncias
-- CÛdigos de status de respostas HTTP: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status
+# Refer√™ncias
+- C√≥digos de status de respostas HTTP: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status
+- Chamar uma API Web de um cliente .NET: https://learn.microsoft.com/pt-br/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
+- Usando Exce√ß√µes: https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/using-exceptions
+- LINQ (Consulta Integrada √† Linguagem): https://learn.microsoft.com/pt-br/dotnet/csharp/linq/
+- Introdu√ß√£o a consultas LINQ: https://learn.microsoft.com/pt-br/dotnet/csharp/linq/get-started/introduction-to-linq-queries
+- Como gravar texto em um arquivo: https://learn.microsoft.com/pt-br/dotnet/standard/io/how-to-write-text-to-a-file
