@@ -10,9 +10,16 @@ namespace colecoes
             List<ColecoesBase> colecoes = new List<ColecoesBase>
             {
                 new ColecaoArray(),
+                new ColecaoHashtable(),
+                new ColecaoLinkedListGenerica(),
+                new ColecaoSortedDictionaryGenerica(),
+                new ColecaoSortedSetGenerica(),
                 new ColecaoListGenerica(),
                 new ColecaoHashSetGenerica(),
-                new ColecaoDictionaryGenerica()
+                new ColecaoDictionaryGenerica(),
+                new ColecaoSortedList(),
+                new ColecaoStack(),
+                new ColecaoQueue()
             };
 
             foreach (ColecoesBase colecao in colecoes)
